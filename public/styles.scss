@@ -1,0 +1,81 @@
+@import 'constants';
+
+h1 {
+    font-size: 5.5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+.text-color-primary, .text-color-primary-hoverable {
+    color: $primary;
+}
+
+.text-color-primary-hoverable:hover {
+    color: $primaryHover;
+}
+
+.background-color-primary, .background-color-primary-hoverable {
+    background-color: $primary;
+}
+
+.background-color-primary-hoverable:hover {
+    background-color: $primaryHover;
+}
+
+
+
+.text-color-secondary, .text-color-secondary-hoverable {
+    color: $secondary;
+}
+
+.text-color-secondary-hoverable:hover {
+    color: $secondaryHover;
+}
+
+.background-color-secondary, .background-color-secondary-hoverable {
+    background-color: $secondary;
+}
+
+.background-color-secondary-hoverable:hover {
+    background-color: $secondaryHover;
+}
+
+
+
+.body-text {
+    color: $bodyText;
+    font-size: 1.3rem;
+}
+
+.dotted {
+    list-style-type:disc !important;;
+}
+
+.divider {
+    background-color: $primary;
+    height: 10px;
+}
+
+.header {
+    color: $secondary;
+    background-color: $primary;
+    padding: .75rem;
+}
+
+.link {
+    color: $primary;
+    text-decoration: underline;
+}
+.link:hover {
+    color: $primaryHover;
+}

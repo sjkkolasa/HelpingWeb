@@ -1,0 +1,30 @@
+$primary: #4eb0ce;
+
+$secondary: white;
+
+$navbar: rgb(230, 229, 229);
+
+$bodyText: rgb(141, 140, 140);
+
+$primaryHover: lighten($primary, 15%);
+
+@if (lightness($primary) > 50) {
+    $primaryHover: darken($primary, 15%);
+}
+
+$secondaryHover: lighten($secondary, 15%);
+
+@if (lightness($secondary) > 50) {
+    $secondaryHover: darken($secondary, 15%);
+}
+
+// If secondary is near-white, it shouldn't be darkened too much, so that it doesn't blend into the navbar.
+@if (lightness($secondary) > 90) {
+    $secondaryHover: darken($secondary, 3%);
+}
+
+$bodyTextHover: lighten($bodyText, 8%);
+
+@if (lightness($bodyText) > 50) {
+    $bodyTextHover: darken($bodyText, 8%);
+}

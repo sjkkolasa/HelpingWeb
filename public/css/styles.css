@@ -1,0 +1,76 @@
+h1 {
+  font-size: 5.5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+.text-color-primary, .text-color-primary-hoverable {
+  color: #4eb0ce;
+}
+
+.text-color-primary-hoverable:hover {
+  color: #2d87a3;
+}
+
+.background-color-primary, .background-color-primary-hoverable {
+  background-color: #4eb0ce;
+}
+
+.background-color-primary-hoverable:hover {
+  background-color: #2d87a3;
+}
+
+.text-color-secondary, .text-color-secondary-hoverable {
+  color: white;
+}
+
+.text-color-secondary-hoverable:hover {
+  color: #f7f7f7;
+}
+
+.background-color-secondary, .background-color-secondary-hoverable {
+  background-color: white;
+}
+
+.background-color-secondary-hoverable:hover {
+  background-color: #f7f7f7;
+}
+
+.body-text {
+  color: rgb(141, 140, 140);
+  font-size: 1.3rem;
+}
+
+.dotted {
+  list-style-type: disc !important;
+}
+
+.divider {
+  background-color: #4eb0ce;
+  height: 10px;
+}
+
+.header {
+  color: white;
+  background-color: #4eb0ce;
+  padding: 0.75rem;
+}
+
+.link {
+  color: #4eb0ce;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #2d87a3;
+}
