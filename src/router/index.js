@@ -51,7 +51,7 @@ const router = createRouter({
 router.beforeEach(async (to, from, next) => {
     let title = to.meta.title
 
-    document.title = `${title} | Sunday in NC`
+    document.title = `${title} | Helping Web`
 
     window.scrollTo({ top: 0, behavior: 'smooth' })
 
