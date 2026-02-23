@@ -15,19 +15,19 @@ h4 {
 }
 
 .text-color-primary, .text-color-primary-hoverable {
-  color: #4eb0ce;
+  color: #00AEB5;
 }
 
 .text-color-primary-hoverable:hover {
-  color: #2d87a3;
+  color: #03f5ff;
 }
 
 .background-color-primary, .background-color-primary-hoverable {
-  background-color: #4eb0ce;
+  background-color: #00AEB5;
 }
 
 .background-color-primary-hoverable:hover {
-  background-color: #2d87a3;
+  background-color: #03f5ff;
 }
 
 .text-color-secondary, .text-color-secondary-hoverable {
@@ -56,21 +56,26 @@ h4 {
 }
 
 .divider {
-  background-color: #4eb0ce;
+  background-color: #00AEB5;
   height: 10px;
 }
 
 .header {
   color: white;
-  background-color: #4eb0ce;
+  background-color: #00AEB5;
   padding: 0.75rem;
 }
 
 .link {
-  color: #4eb0ce;
+  color: #00AEB5;
   text-decoration: underline;
 }
 
 .link:hover {
-  color: #2d87a3;
+  color: #03f5ff;
+}
+
+.subheader {
+  color: #00AEB5;
+  font-weight: bold;
 }

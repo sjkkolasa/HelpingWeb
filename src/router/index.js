@@ -7,7 +7,7 @@ import { state } from '../stores/store.js'
 
 // Import views.
 import HomeView from '../components/HomeView.vue'
-import Page2View from '../components/Page2View.vue'
+// import Page2View from '../components/Page2View.vue'
 import NotFoundView from '../components/NotFoundView.vue'
 
 
@@ -21,14 +21,14 @@ const routes = [
             title: 'Home'
         },
     },  
-    { 
-        path: '/page2',
-        name: 'page2',
-        component: Page2View,
-        meta: {
-            title: 'Page2'
-        }
-    },
+    // { 
+    //     path: '/page2',
+    //     name: 'page2',
+    //     component: Page2View,
+    //     meta: {
+    //         title: 'Page2'
+    //     }
+    // },
     {
         path: '/:catchAll(.*)*',
         name: '404',

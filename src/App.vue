@@ -1,16 +1,18 @@
 <template>
     <div>
-        <div id="banner">
+        <!-- <div id="banner">
             <div id="banner-columns" class="columns is-centered mx-2">
                 <div id="banner-column" class="column is-two-thirds has-text-light has-text-weight-bold">
                     <div id="title">
-                        <h1>The Helping Web</h1>
+                        <h1>Helping Web</h1>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div id="nav" class="is-centered my-5">
+        <img src="assets/Helping Web Logo Horizontal.png" alt="Helping Web Logo">
+
+        <!-- <div id="nav" class="is-centered my-5">
             <div class="columns is-centered navbar">
                 <div class="column is-two-fifths p-0 m-1">
                     <div id="nav-columns" class="columns is-centered has-text-centered my-3">
@@ -27,7 +29,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         
         <RouterView v-slot="{ Component }">
             <Transition :name="state.justReloaded ? 'noTransition' : 'route' " mode="out-in">
@@ -59,11 +61,11 @@ body {
   position: relative
 }
 
-#banner {
-    background-image: url('./assets/blue-header-background-darker.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+// #banner {
+//     background-image: url('./assets/blue-header-background-darker.png');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
 
 .navbar {
     background-color: $navbar;
