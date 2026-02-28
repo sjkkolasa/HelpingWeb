@@ -30,7 +30,7 @@
                 <h3>Request a Website</h3>
             </div>
 
-            <p class="body-text my-5">If you would like to request our help to make a website, please fill out <a class="link" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSesoS1IKYqhHI9UerHMqgbYABhq4BQ9m1l_ahpcmfVqfvSclA/viewform?usp=dialog">this Google form</a> to let us know about your organization and website needs. Fill out as much information as you can, but it is okay to leave the non-required questions blank if you do not have a good answer yet. We will react out to you to start discussing ideas for your website.</p>
+            <p class="body-text my-5">If you would like to request our help to make a website, please fill out <a class="link" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSesoS1IKYqhHI9UerHMqgbYABhq4BQ9m1l_ahpcmfVqfvSclA/viewform?usp=dialog">this Google form</a> to let us know about your organization and website needs. Fill out as much information as you can, but it is okay to leave the non-required questions blank if you do not have a good answer yet. We will reach out to you to start discussing ideas for your website.</p>
         </div>
     </div>
 </template>

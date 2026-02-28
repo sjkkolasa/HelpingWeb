@@ -10,7 +10,9 @@
             </div>
         </div> -->
 
-        <img src="assets/Helping Web Logo Horizontal.png" alt="Helping Web Logo">
+        <img src=./assets/Helping_Web_Logo_Horizontal_smaller.png alt="Helping Web Logo">
+
+        <div class="divider"></div>
 
         <!-- <div id="nav" class="is-centered my-5">
             <div class="columns is-centered navbar">
