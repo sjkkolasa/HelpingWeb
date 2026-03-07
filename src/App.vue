@@ -52,9 +52,9 @@ import { state } from './stores/store.js'
 <style lang="scss">
 @import '../public/constants.scss';
 
-html {
-    background-image: url('./assets/white-site-background.webp');
-}
+// html {
+//     background-image: url('./assets/white-site-background.webp');
+// }
 
 html, body {
   overflow-x: hidden;
